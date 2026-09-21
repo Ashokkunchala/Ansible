@@ -1,0 +1,4 @@
+# Day 46 — Blocks, Rescue and Always\n\n## Goal\nBuild explicit recovery paths around risky tasks.\n\n## Example\n```yaml\nblock:
+  - name: risky task
+rescue:
+  - name: recovery\n```\n\n## Exercises\n1. Recreate the pattern.\n2. Test the failure path.\n3. Validate syntax and lint.\n4. Use check/diff before applying changes.\n\n## Mini challenge\nBuild a production-safe example and document inputs, permissions, verification and rollback.\n\n## Safety\nProduction automation must be predictable, auditable and reversible. Never assume check mode guarantees safety for every module.\n\n## Checklist\n- [ ] Pattern understood\n- [ ] Failure path tested\n- [ ] Validation added\n- [ ] Rollback documented\n
