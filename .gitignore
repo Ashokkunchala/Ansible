@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Ansible
+*.retry
+.vault-pass
+vault-password-file
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+*secret*
+
+# Generated reports
+reports/
