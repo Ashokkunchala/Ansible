@@ -13,4 +13,3 @@ yaml:
 check:
 	$(MAKE) yaml
 	$(MAKE) lint
-```
