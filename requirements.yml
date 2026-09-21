@@ -1,0 +1,4 @@
+# Pin collection versions in real projects after review.
+collections:
+  - name: ansible.posix
+  - name: community.general
